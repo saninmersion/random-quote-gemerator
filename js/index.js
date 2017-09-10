@@ -7,7 +7,7 @@ var singleData = "";
 
 //JSON Parsing
 function loadData(){
-  $.getJSON("http://codepen.io/saninmersion/pen/aJyMWO.js", function(json){
+  $.getJSON("https://codepen.io/saninmersion/pen/aJyMWO.js", function(json){
     var count = json.length;
     var random = Math.floor(Math.random() * count);
 
